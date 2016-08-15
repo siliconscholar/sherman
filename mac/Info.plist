@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>CFBundleIconFile</key>
+	<string>MyIcon.icns</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleGetInfoString</key>
+        <string>Viewer</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+        <string>Sherman</string>
+	<key>CFBundleIdentifier</key>
+        <string>com.pineiros.Sherman</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+	    <dict>
+	        <key>CFBundleTypeName</key>
+                <string>JPEG</string>
+	        <key>LSHandlerRank</key>
+	        <string>Alternate</string>
+	        <key>LSItemContentTypes</key>
+	        <array>
+                    <string>public.jpeg</string>
+                    <string>public.png</string>
+	        </array>
+	    </dict>
+	</array>
+</dict>
+</plist>
